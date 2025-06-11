@@ -304,3 +304,184 @@
     font-weight: 400;
     margin-top: 10px;
 }
+.testimonial {
+    padding: 60px 0px;
+}
+
+.testimonial .testimonial_outer {
+    margin-top: 30px;
+}
+
+.testimonial .testimonial_outer .image {
+    text-align: center;
+}
+
+.testimonial .testimonial_outer .image img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #f1f1f1;
+}
+
+.testimonial .testimonial_outer .testimonial_body {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 20px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.testimonial .testimonial_outer .testimonial_body::before {
+    position: absolute;
+    content: '';
+    top: -5px;
+    left: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #f1f1f1;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg) translateX(-50%);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.testimonial .testimonial_outer .testimonial_body h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 99;
+}
+
+.testimonial .testimonial_outer .testimonial_body ul {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial .testimonial_outer .testimonial_body ul li {}
+
+.testimonial .testimonial_outer .testimonial_body ul li i {
+    color: #5bc5f4;
+}
+
+.testimonial .testimonial_outer .testimonial_body h4 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    margin-bottom: 10px;
+}
+
+.testimonial .testimonial_outer .testimonial_body p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #353535;
+    padding-top: 20px;
+}
+
+.footer .footer_body {}
+
+.footer .footer_body .logo {
+    height: 40px;
+}
+
+.footer .footer_body p {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+}
+
+.footer .footer_body.other_cols{}
+.footer .footer_body.other_cols h4{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 45px;
+}
+.footer .footer_body.other_cols ul{}
+.footer .footer_body.other_cols ul li{
+    display: flex;
+    margin-bottom: 20px;
+}
+.footer .footer_body.other_cols ul li .left{}
+.footer .footer_body.other_cols ul li .left i{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #5bc5f4;
+    color: white;
+    text-align: center;
+}
+/*.footer .footer_body.other_cols ul li .left .call_icon{
+    transform: rotate(90de);
+    -webkit-transform: rotate(90de);
+    -moz-transform: rotate(90de);
+    -ms-transform: rotate(90de);
+    -o-transform: rotate(90de);
+}*/
+.footer .footer_body.other_cols ul li .right{}
+.footer .footer_body.other_cols ul li .right p{
+    margin-top: 0;
+    line-height: 17px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+.footer .footer_body.other_cols .footer_shorcut_links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .footer_body.other_cols .footer_shorcut_links li{
+    margin-bottom: 10px;
+    width: 50%;
+}
+.footer .footer_body.other_cols .footer_shorcut_links li a{
+    font-size: 13px;
+    color: white;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: open-sans;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.footer .footer_body.other_cols .footer_shorcut_links li a:hover{
+    color: #5bc5f4;
+}
+.footer .footer_body.other_cols.gallery {
+    padding: 0px;
+}
+.footer .footer_body.other_cols.gallery img{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.bottom_footer p{
+    background-color: #555555;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    font-size: 13px;
+}
+.bottom_footer p a{
+    font-family: open-sans;
+    color: #5bc5f4;
+}
