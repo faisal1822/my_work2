@@ -1,0 +1,306 @@
+.header{
+    background-color: #0872b9;
+}
+.header .header-left-content{
+    padding: 10px 0px;
+}
+.header .header-left-content p{
+    color: white;
+}
+.header .header-right-content{
+    padding: 10px 0px;
+}
+.header .header-right-content ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.header .header-right-content ul li{
+}
+.header .header-right-content ul li a{
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+}
+
+.header .header-right-content ul li a:hover{
+    color: #353535;
+}
+.nav{}
+.nav .logo{
+    padding: 20PX 0px;
+}
+.nav .logo img{
+    height: 40px;
+}
+.nav .nav-links{
+    padding: 20px 0px;
+}
+.nav .nav-links ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav .nav-links ul li{}
+.nav .nav-links ul li a{
+    text-transform: uppercase;
+    padding: 10px 8px;
+    color: #353535;
+}
+.nav .nav-links ul li a:hover{
+    color: #0872b9;
+}
+#banner{
+    background-image: url('../psd photo/banner.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner .banner-content{
+    text-align: right;
+    padding: 90px 0px;
+}
+#banner .overlay{
+    background-color: rgba(0 ,0 ,0, .4);
+}
+#banner .banner-content h2{
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#banner .banner-content h1{
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#banner .banner-content p{
+    font-size: 13px;
+    color: white;
+    margin-bottom: 30px;
+}
+#banner .banner-content ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#banner .banner-content ul li{}
+#banner .banner-content ul li a{
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 25px;
+}
+#banner .banner-content ul li a:hover{
+    color: #0872b9;
+}
+.common-heading{
+    text-align: center;
+}
+.common-heading h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 24px;
+    color:#353535;
+    position: relative;
+    display: inline-block;
+}
+.common-heading h2::before{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 60%;
+    background-image: url('../psd photo/underline image.jpg');
+    background-size: contain;
+    bottom: -5px;
+    left: 0;
+}
+
+.about_us{
+    padding: 60px 0px;
+}
+.about_us .about_image{
+    margin-top: 40px;
+}
+.about_us .about_image img{
+    width: 100%;
+}
+.about_us .about_me{
+    margin-top: 85px;
+}
+.about_us .about_me p{
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.Service{
+    padding: 60px 0px       ;
+}
+.Service .service_body{
+    background: #f1f1f1;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 65px;
+    transition: all linear .3s;
+}
+.Service .service_body:hover{
+    box-shadow: 0px 0px 10px;
+    color: rgba(0 ,0 ,0, .4) ;
+}
+.Service .service_body:hover .service_icon{
+    box-shadow: 0px 0px 10px;
+    color: rgba(0 ,0 ,0, .4) ;
+    background-color: #5bc5f4;
+}
+.Service .service_body .service_icon{
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 75px;
+    position: absolute;
+    top: -33px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+}
+.Service .service_body .service_icon::before{
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    content: '';
+    border: 2px solid #f1f1f1;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.Service .service_body .service_icon img{
+    height: 40px;
+    margin-top: 20px;
+}
+.Service .service_body h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #353535;
+    line-height: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.Service .service_body p{
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.gallery{
+    padding: 60px 0px;
+}
+.gallery .gallery_body{
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.gallery .gallery_body:hover .overlay{
+    /*transform: scale(1);*/
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.gallery .gallery_body .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0 ,0 ,0, .6);
+    top: 100%;
+    left: 0;
+    /*transform: scale(0);*/
+    transition: all linear .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.gallery .gallery_body .overlay a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #5bc5f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.gallery .gallery_body .overlay a i{
+    color: white;
+    font-size: 20px;
+}
+.gallery .gallery_body img{
+    width: 100%;
+}
+
+.team{
+    padding: 60px 0px;
+}
+.team .team_body{
+    text-align: center;
+    margin-top: 20PX;
+}
+.team .team_body .image{
+    position: relative;
+    overflow: hidden;
+}
+.team .team_body .image:hover ul{
+    right: 0;
+}
+.team .team_body .image ul{
+    position: absolute;
+    right: -30%;
+    top: 0;
+    width: 30%;
+    background-color: rgba(0 ,0 ,0, .6);
+    height: 98%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    transition: all linear .3s;
+}
+.team .team_body .image ul li{
+ 
+}
+.team .team_body .image ul li a{
+       display: inline-block;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 40px;
+}
+.team .team_body .image ul li a:hover{
+    color: #5bc5f4;
+}
+.team .team_body .image ul li a i{}
+.team .team_body .image img{
+    width: 100%;
+}
+.team .team_body h3{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.team .team_body h4{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
